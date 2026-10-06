@@ -1,0 +1,64 @@
+:root {
+   --fuente: Pacifico, "Brush Script MT", cursive;
+   --color-texto: #8D769A;
+   --color-fondo: #28193D;
+   --color-primario: rgba(158, 85, 218, 0.979); 
+}
+/* ===== ESTILOS GENERALES ===== */
+body {
+ font-family: var(--fuente);
+ color: var(--color-texto);
+ background-color: var(--color-fondo);
+ font-size: 16px;
+ line-height: 1.6;
+}
+* {
+  cursor: url('https://cdn.cursors-4u.net/previews/slapping-cat-1348ecde-preview-128.webp') 0 0, auto !important;
+}
+* {
+  cursor: url('https://cdn.cursors-4u.net/css-previews/naruto-uzumaki-vertical-select-f87d11ba-css.webp') 6 16, auto !important;
+}
+/* End www.Cursors-4U.com Code */
+/* ===== TIPOGRAFÍA ===== */
+h1 {
+ font-size: 2rem;
+ color: var(--color-primario);
+}
+h2 {
+ font-size: 1.5rem;
+ color: var(--color-primario);
+ margin-bottom: 10px;
+}
+h3 {
+ font-size: 1.15rem;
+ color: var(--color-texto);
+ margin-bottom: 8px;
+}
+img {
+  border-radius: 70px;
+  margin-left: 100px;
+}
+footer {
+ background-color: var(--color-texto);
+ color: rgb(122, 64, 231);
+ text-align: center;
+ padding: 20px;
+ font-size: 0.875rem;
+}
+.contacto a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+header {
+ background-color: var(--color-primario);
+ color: rgb(34, 9, 82);
+ padding: 24px 32px;
+ text-align: center;
+}
+header h1 {
+ color:#542e85;
+ margin-bottom: 12px;
+}
